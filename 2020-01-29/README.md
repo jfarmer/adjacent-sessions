@@ -1,25 +1,19 @@
-# PROBLEMS
+# Session Notes for Wednesday, January 29
 
-- prime factors
-- multiplication table
-- is valid triangle
-- print hollow pyramid
-- print plus
+## Projects for Thursday + Friday
 
-- rot13
-- rotN
+Projects for Thurs/Friday will go smoother if you at least look at the links below beforehand.
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+### Dictionaries
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-BCDEFGHIJKLMNOPQRSTUVWXYZA
-CDEFGHIJKLMNOPQRSTUVWXYZAB
-DEFGHIJKLMNOPQRSTUVWXYZABC
-EFGHIJKLMNOPQRSTUVWXYZABCD
-FGHIJKLMNOPQRSTUVWXYZABCDE
+- https://github.com/jfarmer/intro-javascript/blob/master/Collections/Dictionaries.md
+- https://javascript.info/object
 
-sourceAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-targetAlphabet = 'NOPQRSTUVWXYZABCDEFGHIJKLM'
+### Reading Files
 
+- https://github.com/jfarmer/intro-javascript/blob/master/Input-Output/Input.md#reading-from-a-file
+- https://github.com/jfarmer/examples-javascript (run the `readFile.js`)
 
-HELLO
+### Common String Methods
+
+- String.split <https://www.w3schools.com/jsref/jsref_split.asp>
