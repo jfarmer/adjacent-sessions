@@ -1,7 +1,7 @@
 function rot13(input){
   let sourceAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  let targetAlphabet = 'BCDEFGHIJKLMNOPQRSTUVWXYZA'
-  let targetAlphabet = 'BCDEFGHIJKLMNOPQRSTUVWXYZAB'
+  // let targetAlphabet = 'BCDEFGHIJKLMNOPQRSTUVWXYZA'
+  // let targetAlphabet = 'CDEFGHIJKLMNOPQRSTUVWXYZAB'
   let targetAlphabet = 'NOPQRSTUVWXYZABCDEFGHIJKLM'
 
   let output = '';
