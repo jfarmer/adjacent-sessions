@@ -4,7 +4,10 @@
 
 - [The Questions](#the-questions)
   - [How do you make an element flash then wait a few seconds then have another element flash](#how-do-you-make-an-element-flash-then-wait-a-few-seconds-then-have-another-element-flash)
+  - [How do you use JS to write temporary text to the document](#how-do-you-use-js-to-write-temporary-text-to-the-document)
   - [What order does the browser run the JavaScript in](#what-order-does-the-browser-run-the-javascript-in)
+  - [How to get user input in HTML, into JavaScript, and then produce an output](#how-to-get-user-input-in-html-into-javascript-and-then-produce-an-output)
+  - [How does `jQuery.css(...)` work?](#how-does-jquerycss-work)
   - [How to write a JavaScript function that produces a random color](#how-to-write-a-javascript-function-that-produces-a-random-color)
   - [How do you reference the colored squares in JavaScript and manipulate them](#how-do-you-reference-the-colored-squares-in-javascript-and-manipulate-them)
   - [How do you use JavaScript to add/remove classes from elements](#how-do-you-use-javascript-to-addremove-classes-from-elements)
@@ -18,7 +21,7 @@ You can't "wait" in JavaScript (at least in the browser).
 - `setTimeout` - Tells the browser to run a snippet of JavaScript some fixed time in the future
 - `setInterval` - Tells the browser to run a snippet of JavaScript periodically every specified interval
 
-- How do you use JS to write temporary text to the document?
+### How do you use JS to write temporary text to the document
 
 ```javascript
 $('#output').text('Hello, world');
@@ -38,12 +41,12 @@ alert('Hello, world!');
 <script src="hello.js">
 ```
 
-- How to get user input in HTML, into JavaScript, and then produce an output?
+### How to get user input in HTML, into JavaScript, and then produce an output
 
 - Listening to events like `click`
 - Using a `<form>` tag that contains `<input>` tags and then using JavaScript to read the text from the input tags.
 
-- How does `jQuery.css(...)` work?
+### How does `jQuery.css(...)` work?
 
 1. Look up the official documentation on jquery.org!
 
