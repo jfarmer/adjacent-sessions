@@ -123,9 +123,11 @@ let result = sum([10, 20, 30, 55]);
 let numbers = [10, 20, 30, 55];
 let result = sum(numbers);
 
-let something = {
+let bananaTime = {
   name: 'Jesse',
   shout: function() {
     console.log('This HVAC is so loud!');
   }
 }
+
+$('.some-button').on('click', bananaTime.shout);
