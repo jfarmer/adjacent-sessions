@@ -29,3 +29,8 @@ To modify or create a table, we need to create a migration using knex.  Google t
 - `knex create migration`
 - `knex alter table migration`
 - `knex create table migration`
+
+## Remember To Start With...
+
+- What questions to we want to ask?
+- What data do we need to to answer those questions and how must it be organized?
