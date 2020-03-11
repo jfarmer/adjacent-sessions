@@ -12,3 +12,20 @@
    1. Displaying the information
    1. If it's information a user provides, some place for the user to provide that information
 1. Add a new route (or endpoint) that works with the new information
+
+## SQL Keywords
+
+- `CREATE TABLE` to create a new table
+- `ALTER TABLE` to modify an existing table
+- `UPDATE` to update a row in a specific table
+- `INSERT INTO` to insert a new row into a specific table
+
+See [the SQL file](social_wall_group1.sql) from the session.
+
+## Migrations
+
+To modify or create a table, we need to create a migration using knex.  Google things like:
+
+- `knex create migration`
+- `knex alter table migration`
+- `knex create table migration`
