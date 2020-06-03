@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anchor tags</title>
+  <style>
+    ul li a {
+      color: green;
+    }
+
+    ol > li > a {
+      color: red;
+    }
+
+    .cool-stuff p:nth-child(2n) {
+      color: red;
+    }
+
+    .container {
+      max-width: 600px;
+
+      /*
+        margin: 0 auto 0 auto;
+      */
+      margin-top: 0;
+      margin-right: auto;
+      margin-bottom: 0;
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+  <p>Here are some pages:</p>
+  <ul>
+    <li>
+      <p>
+        Here's a link to <a href="page1.html">First page</a>
+      </p>
+    </li>
+    <li>
+      <a href="page2.html">Second page</a>
+    </li>
+    <li>
+      <a href="page3.html">Third page</a>
+    </li>
+    <li>
+      <a href="page4.html">Fourth page</a>
+    </li>
+  </ul>
+
+  <ol>
+    <li>
+      <a href="page1.html">First page</a>
+    </li>
+    <li>
+      <a href="page2.html">Second page</a>
+    </li>
+    <li>
+      <a href="page3.html">Third page</a>
+    </li>
+    <li>
+      <a href="page4.html">Fourth page</a>
+    </li>
+  </ol>
+
+  <p>
+    Or, let's see what's happening on <a href="https://twitter.com">Twitter</a>.
+  </p>
+</body>
+</html>
