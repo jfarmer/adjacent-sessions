@@ -40,18 +40,18 @@ For this reason, the `<a>` tag is really the at the heart of HTML. It's what all
 
 ## Name Some HTML Tags
 
-- <a>
-- <html>
-- <em>, <head>, <body>, <p>
-- <h1>, <h2>, <h3>, ..., <h6>
-- <br>
-- <img>
-- <table>, <tr>, <th>, <td>
-- <video>, <audio>
-- <style>
-- <ul>, <ol>, <li>
-- <title>
-- <div>
+- `<a>`
+- `<html>`
+- `<em>`, `<head>`, `<body>`, `<p>`
+- `<h1>`, `<h2>`, `<h3>`, ..., `<h6>`
+- `<br>`
+- `<img>`
+- `<table>`, `<tr>`, `<th>`, `<td>`
+- `<video>`, `<audio>`
+- `<style>`
+- `<ul>`, `<ol>`, `<li>`
+- `<title>`
+- `<div>`
 
 ## HTML Documents Are A Map, Not The Terrain
 
