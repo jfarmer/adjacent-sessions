@@ -99,7 +99,7 @@ ol li p {
 }
 ```
 
-Selects `ol li p`, which is all the `<p>` tags that are **descendents** of an `<li>` tag that are **descendants** of an `<ol>` tag. A space alone is a "descendent combinator".
+Selects `ol li p`, which is all the `<p>` tags that are **descendents** of an `<li>` tag that are **descendants** of an `<ol>` tag and apply the style `color: purple` to them. A space alone is a "descendent combinator".
 
 ## Trees!
 
