@@ -85,6 +85,7 @@ Is saying two things:
 1. Select all the `a` tags that are **children** of a `li` tag that are **children** of a `ol` tag and apply the following styles: `color: red`
 
 This is why the `>` is called the "child combinator":
+
 - `a` selects all the `<a>...</a>` tags on the page
 - `li` selects all the `<li>...</li>` tags on the page
 - `li > a` selects all the `<a>` tags that are a **child** of an `<li>` tag
