@@ -1,5 +1,15 @@
 # Adjacent Session, June 16, 2020
 
+## Contents <!-- omit in toc -->
+
+- [Variable Assignment](#Variable-Assignment)
+- [Control Flow](#Control-Flow)
+- [Conditionals](#Conditionals)
+- [Loops](#Loops)
+  - [Loop Example 1](#Loop-Example-1)
+  - [Loop Example 2](#Loop-Example-2)
+  - [Loop Example 3](#Loop-Example-3)
+
 ## Variable Assignment
 
 When we write something like
