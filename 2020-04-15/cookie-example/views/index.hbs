@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{#if userId}}
+  <h2>Hello, user #{{userId}}!</h2>
+{{/if}}
+
+<h2>Cookies</h2>
+<ol>
+  {{#each cookies}}
+    <li><strong>{{@key}}</strong>: {{this}}</li>
+  {{/each}}
+</ol>
