@@ -4,7 +4,7 @@
 
 ## Flashing Text
 
-See `index.html` for all the code.
+See `index.html` for all the code. See <https://adjacent-session-2020-09-02.surge.sh> for a live version of the site.
 
 We use two CSS features to make text flash:
 
