@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Flash Animation</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-red {
+      color: red;
+    }
+
+    .text-blue {
+      color: blue;
+    }
+
+    /* Applies to all elements with class="flashy" */
+    .flashy {
+      font-size: 60px;
+    }
+
+    /* Applies to the element with id="flashy-manual" */
+    #flashy-manual {
+      /* This CSS transition will apply whenever the
+         color property is changed, regardless of how
+         it gets changed */
+      transition: color 500ms ease-in-out;
+    }
+
+    /* Define the keyframes for our custom animation */
+    @keyframes flash-color {
+      from {
+        color: red;
+      }
+
+      to {
+        color: blue;
+      }
+    }
+
+    /* Applies to the element with id="flashy-automatic" */
+    #flashy-automatic {
+      /* Apply the "flash-color" animation
+         to this element */
+      animation: 500ms linear 100ms infinite alternate flash-color;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="flashy-automatic" class="flashy text-red">Flash Automatically</h1>
+  <h1 id="flashy-manual" class="flashy text-red">Click Buttons</h1>
+  <button id="make-text-red">Make Red</button>
+  <button id="make-text-blue">Make Blue</button>
+
+  <script>
+    let flashyHeader = document.querySelector('#flashy-manual');
+
+    let redButton = document.querySelector('#make-text-red');
+    redButton.addEventListener('click', function() {
+      flashyHeader.classList.remove('text-blue');
+      flashyHeader.classList.add('text-red');
+    });
+
+    let blueButton = document.querySelector('#make-text-blue');
+    blueButton.addEventListener('click', function() {
+      flashyHeader.classList.remove('text-red');
+      flashyHeader.classList.add('text-blue');
+    });
+  </script>
+</body>
+</html>
