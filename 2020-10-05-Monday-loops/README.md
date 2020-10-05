@@ -20,16 +20,16 @@ There are three main types of loops you'll use:
 
 When you see the `while` keyword, you know a while loop is involved.
 
-See [loops.js](loops.js). Save that file and on the command line, run:
+1. See [loops.js](loops.js). Save that file and on the command line, run:
 
-```console
-node loops.js 8
-```
+   ```console
+   node loops.js 8
+   ```
 
-Change `8` to any number and the program will print out that number of lines.
+   Change `8` to any number and the program will print out that number of lines.
 
-See [print-names.js](print-names.js), which implements the same loop using a `while` loop and a `for` loop. Save that file and on the command line, run:
+1. See [print-names.js](print-names.js), which implements the same loop using a `while` loop and a `for` loop. Save that file and on the command line, run:
 
-```console
-node print-names.js
-```
+   ```console
+   node print-names.js
+   ```
