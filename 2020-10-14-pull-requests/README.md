@@ -5,6 +5,7 @@
 ## Contents <!-- omit in toc -->
 
 - [Wednesday, October 14, 2020](#wednesday-october-14-2020)
+- [Help Session Recording](#help-session-recording)
 - [A Diagram Of A Git Repository w/ Branches](#a-diagram-of-a-git-repository-w-branches)
 - [What Are Pull Requests?](#what-are-pull-requests)
   - [Pull Requests](#pull-requests)
@@ -14,6 +15,10 @@
   - [Switching Branches](#switching-branches)
   - [Checking Current Branch](#checking-current-branch)
   - [Pushing to GitHub](#pushing-to-github)
+
+## Help Session Recording
+
+See <https://www.youtube.com/watch?v=WJ7mh6Btacc&list=PL_Nybj0Pic9l2FY5dIn5b5pcFCcgHf3M7&index=2>
 
 ## A Diagram Of A Git Repository w/ Branches
 
