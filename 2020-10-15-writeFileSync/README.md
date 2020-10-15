@@ -2,7 +2,19 @@
 
 ## Thursday, October 15, 2020
 
-### Publishing To Surge
+## Contents <!-- omit in toc -->
+
+- [Thursday, October 15, 2020](#thursday-october-15-2020)
+- [YouTube Recording](#youtube-recording)
+- [Publishing To Surge](#publishing-to-surge)
+- [fs.writeFileSync](#fswritefilesync)
+- [Files To Run](#files-to-run)
+
+## YouTube Recording
+
+See <https://www.youtube.com/watch?v=il5xzsdMsak&list=PL_Nybj0Pic9l2FY5dIn5b5pcFCcgHf3M7&index=3>
+
+## Publishing To Surge
 
 If you want to use the `surge` command to publish directly, specify the `site/` directory like so:
 
@@ -14,7 +26,7 @@ This tells surge to publish all the files in `site/` to the web. By default, it 
 
 It's common to have the files-to-publish live in a separate directory inside a project. Project-related files (documentation, scripts, etc.) live outside of that directory, so you don't have to worry about publishing them.
 
-### fs.writeFileSync
+## fs.writeFileSync
 
 See:
 
@@ -23,7 +35,7 @@ See:
 
 Make sure to run the examples. Make predictions about what the examples will do and verify whether your predictions are correct.
 
-### Files To Run
+## Files To Run
 
 1. `geeksWriteFileExample.js` is the example from the GeeksForGeeks website above
 1. `writeFileExample.js` writes to `site/index.html`
