@@ -1,10 +1,9 @@
 # Session Notes: Writing Files
 
-## Thursday, October 15, 2020
+## Thursday, October 15, 2020 <!-- omit in toc -->
 
 ## Contents <!-- omit in toc -->
 
-- [Thursday, October 15, 2020](#thursday-october-15-2020)
 - [YouTube Recording](#youtube-recording)
 - [Publishing To Surge](#publishing-to-surge)
 - [fs.writeFileSync](#fswritefilesync)
