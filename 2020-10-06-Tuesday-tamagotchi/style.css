@@ -1,0 +1,22 @@
+#tamagotchi {
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(50, 50, 50);
+  background-color: red;
+}
+
+.feeling-happy {
+  background-color: green;
+}
+
+.feeling-neutral {
+  backgroud-color: yellow;
+}
+
+.feeling-sad {
+  background-color: red;
+}
+
+.feeling-dead {
+  background-color: black;
+}
