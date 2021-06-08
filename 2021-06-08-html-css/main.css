@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+h1.smurf {
+  color: blue;
+}
+
+p.avocado {
+  font-size: 90px;
+  text-decoration: underline;
+}
+
+div.container {
+  border: 5px dotted red;
+  /* border-width: 10px 20px 5px 10px;
+  border-color: red;
+  border-style: dotted; */
+  width: 600px;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  background-color: #F0F0F0;
+  filter: drop-shadow(4px 4px 4px black);
+}
